@@ -1,0 +1,68 @@
+2018-10-09 21:12:12,523 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:49]
+2018-10-09 22:02:37,850 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:49]
+2018-10-15 18:32:09,724 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:49]
+2018-10-15 18:34:36,720 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:49]
+2019-01-06 11:35:25,956 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:49]
+2019-01-06 11:35:49,877 ERROR: Exception on /login [POST] [in c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Geetendra\microblogs\app\routes.py", line 51, in login
+    if user is None or not user.check_password(form.password.data):
+  File "C:\Users\Geetendra\microblogs\app\models.py", line 42, in check_password
+    return check_password_hash(self.password_hash, password)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\werkzeug\security.py", line 245, in check_password_hash
+    if pwhash.count('$') < 2:
+AttributeError: 'NoneType' object has no attribute 'count'
+2019-01-23 13:52:26,938 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:49]
+2019-01-23 13:59:31,232 INFO: Microblog startup [in C:\Users\Geetendra\Desktop\flask\social-website\app\__init__.py:49]
+2019-01-23 17:14:02,672 INFO: Microblog startup [in C:\Users\Geetendra\Desktop\flask\social-website\app\__init__.py:49]
+2019-01-26 01:10:33,739 INFO: Microblog startup [in C:\Users\Geetendra\Desktop\flask\social-website\app\__init__.py:49]
+2019-01-26 01:11:41,645 ERROR: Exception on /index [POST] [in c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Geetendra\Desktop\flask\social-website\app\routes.py", line 26, in index
+    language = guess_language(form.post.data)
+NameError: name 'guess_language' is not defined
+2019-01-26 01:13:07,994 ERROR: Exception on /index [POST] [in c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Geetendra\Desktop\flask\social-website\app\routes.py", line 26, in index
+    language = guess_language(form.post.data)
+NameError: name 'guess_language' is not defined

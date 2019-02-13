@@ -1,0 +1,123 @@
+2018-10-01 20:49:09,477 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:48]
+2018-10-01 20:53:46,349 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:48]
+2018-10-01 20:54:04,086 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:48]
+2018-10-02 17:54:48,587 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:51]
+2018-10-02 18:17:03,720 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:51]
+2018-10-02 18:17:29,363 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:51]
+2018-10-02 18:20:05,045 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:51]
+2018-10-02 18:24:39,725 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:51]
+2018-10-02 18:25:29,324 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:51]
+2018-10-02 18:39:30,480 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:51]
+2018-10-02 18:40:11,768 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:51]
+2018-10-05 23:58:17,004 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:51]
+2018-10-06 00:02:00,962 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:51]
+2018-10-09 01:01:26,236 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:49]
+2018-10-09 01:03:04,150 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:49]
+2018-10-09 20:10:13,347 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:49]
+2018-10-09 20:20:23,582 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:52]
+2018-10-09 20:32:58,229 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:52]
+2018-10-09 20:34:11,764 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:52]
+2018-10-09 20:34:29,276 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:52]
+2018-10-09 20:35:16,290 INFO: Microblog startup [in C:\Users\Geetendra\microblogs\app\__init__.py:52]
+2018-10-09 20:35:18,781 ERROR: Exception on / [GET] [in c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1811, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2087, in preprocess_request
+    rv = func()
+  File "C:\Users\Geetendra\microblogs\app\routes.py", line 200, in before_request
+    g.locale = str(get_locale())
+NameError: name 'get_locale' is not defined
+2018-10-09 20:35:28,536 ERROR: Exception on /search [GET] [in c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1811, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2087, in preprocess_request
+    rv = func()
+  File "C:\Users\Geetendra\microblogs\app\routes.py", line 200, in before_request
+    g.locale = str(get_locale())
+NameError: name 'get_locale' is not defined
+2018-10-09 20:35:32,595 ERROR: Exception on /index [GET] [in c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1811, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2087, in preprocess_request
+    rv = func()
+  File "C:\Users\Geetendra\microblogs\app\routes.py", line 200, in before_request
+    g.locale = str(get_locale())
+NameError: name 'get_locale' is not defined
+2018-10-09 20:35:34,180 ERROR: Exception on /index [GET] [in c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1811, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2087, in preprocess_request
+    rv = func()
+  File "C:\Users\Geetendra\microblogs\app\routes.py", line 200, in before_request
+    g.locale = str(get_locale())
+NameError: name 'get_locale' is not defined
+2018-10-09 20:35:34,963 ERROR: Exception on /index [GET] [in c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1811, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2087, in preprocess_request
+    rv = func()
+  File "C:\Users\Geetendra\microblogs\app\routes.py", line 200, in before_request
+    g.locale = str(get_locale())
+NameError: name 'get_locale' is not defined
+2018-10-09 20:35:36,033 ERROR: Exception on /index [GET] [in c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1811, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "c:\users\geetendra\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2087, in preprocess_request
+    rv = func()
+  File "C:\Users\Geetendra\microblogs\app\routes.py", line 200, in before_request
+    g.locale = str(get_locale())
+NameError: name 'get_locale' is not defined
